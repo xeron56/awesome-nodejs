@@ -60,3 +60,19 @@ TypeScript is a programming language that is a super set of JavaScript, and it p
 - Async/await: TypeScript has native support for the async and await keywords, which can make it easier to write asynchronous code that is easy to read and maintain.
 
 Overall, TypeScript can be a good choice for projects that require strong typing, object-oriented programming, and large codebases, as it can help you write more robust and maintainable code. However, it does require a bit of a learning curve, and it may not be necessary for smaller projects or projects with simpler requirements.
+
+
+# Advantages of using mongo DB over mysql
+Here is a table that compares the features and benefits of MongoDB and MySQL:
+
+| Feature | MongoDB | MySQL |
+| --- | --- | --- |
+| Data model | MongoDB uses a document-oriented data model, which stores data in flexible, JSON-like documents. | MySQL uses a relational data model, which stores data in tables with rows and columns. |
+| Scaling | MongoDB has native support for horizontal scaling through sharding. | MySQL can be scaled horizontally by using a combination of partitioning and replication. |
+| Indexing | MongoDB supports rich, multi-key indexes and geospatial indexing. | MySQL supports a wide range of indexes, including full-text search and spatial indexes. |
+| Query language | MongoDB uses a powerful query language that supports complex queries, aggregations, and joins. | MySQL uses a structured query language (SQL) that is widely used and well-documented. |
+| ACID transactions | MongoDB supports atomic operations at the document level, but does not support traditional ACID transactions. | MySQL supports ACID transactions, which provide guarantees around the integrity and consistency of data. |
+| Scalability | MongoDB is highly scalable, as it is designed to handle large amounts of data and traffic. | MySQL can be scaled to handle large amounts of data and traffic, but it may require more effort and infrastructure to do so. |
+| Performance | MongoDB is generally faster for read-heavy workloads, but may be slower for write-heavy workloads. | MySQL is generally faster for write-heavy workloads, but may be slower for read-heavy workloads. |
+| Ease of use | MongoDB has a simple and intuitive API, and it is easy to get started with. | MySQL has a well-established and well-documented API, but it may be more complex to learn and use than MongoDB. |
+| Deployment options | MongoDB can be deployed on-premises, in the cloud, or as a managed service. | MySQL can be deployed on |
